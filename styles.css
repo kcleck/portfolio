@@ -1,3 +1,15 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 10px;
+  }
 
 h1 {
     color:rgb(17, 7, 159);
@@ -10,31 +22,9 @@ h1 {
 }
 
 h2 {
-   /* margin-bottom: -5px;*/
     font-size: 25px;
     color: cadetblue;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/*
-* {
-    border: 2px solid red;
-  }
-*/
-
-.Right {
-    
-    width: 500px;
-    margin-top: 50px;
-    margin-left: 550px;
-    border-color: blueviolet;
-}
-
-.Left {
-    margin-top: -1130px;
-    width: 480px;
-    margin-right: 700px;
-    border-color: blueviolet;
 }
 
 #description {
