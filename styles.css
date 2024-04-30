@@ -65,3 +65,8 @@ button{
     margin: 4px 2px;
     border: none;
 }
+
+#dialog{
+    color:red;
+    background-color: bisque;
+}
